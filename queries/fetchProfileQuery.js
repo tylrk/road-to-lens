@@ -302,6 +302,7 @@ export default gql`
     hidden
     mirrors(by: null)
     hasCollectedByMe
+    reaction
   }
 
   fragment MirrorBaseFields on Mirror {
